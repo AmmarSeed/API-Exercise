@@ -2,7 +2,7 @@
 
 let main=document.getElementById("main-content")
 let input=document.getElementById("search-input")
-let button=document.getElementById("search")
+let button=document.getElementById("enter")
 
 button.addEventListener("click",function () {
 let valueofInput=input.value
