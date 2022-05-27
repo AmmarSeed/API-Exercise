@@ -53,6 +53,10 @@ main {
   margin: 50px;
   height: 40vh;
 }
+img {
+  width: 90%;
+  margin: 3rem auto;
+}
 
 span {
   font-weight: 700;
@@ -61,13 +65,19 @@ span {
 .title {
   font-size: 2rem;
   color: white;
+  width: 60%;
+  margin: 3rem auto;
 }
 
 .author {
   font-size: 1.5rem;
   color: white;
+  width: 60%;
+  margin: 3rem auto;
 }
 .description {
   font: 1rem;
   color: white;
+  width: 60%;
+  margin: 3rem auto;
 }
