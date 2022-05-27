@@ -15,7 +15,7 @@ button.addEventListener("click", function () {
       let result = list.map(function (listing) {
         return `<p> <span class ="title">  ${listing.title} <span> </p>
             <p class = "author"> ${listing.author} </p>
-            <p>${listing.description}</p>`;
+            <p class = "description" >${listing.description}</p>`;
       });
       main.innerHTML = result;
     });
