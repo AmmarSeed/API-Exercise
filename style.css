@@ -27,7 +27,7 @@ html {
 #body-content input[type="search"] {
   margin: 10px auto;
   display: block;
-  width: 100%;
+  width: 60%;
   padding: 15px 50px;
   font-size: 20px;
   border: 2px solid rgb(9, 30, 75);
