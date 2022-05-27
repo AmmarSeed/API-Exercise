@@ -14,6 +14,7 @@ button.addEventListener("click", function () {
       let list = data.articles;
       let result = list.map(function (listing) {
         return `<p> <span class ="title">  ${listing.title} <span> </p>
+        <img src="${listing.urlToImage}" alt="${listing.title}">
             <p class = "author"> ${listing.author} </p>
             <p class = "description" >${listing.description}</p>`;
       });
